@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'xendit' => [
+        'secret' => env('API_KEY')
+    ]
+
 ];
