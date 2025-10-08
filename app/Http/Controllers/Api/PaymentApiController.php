@@ -42,13 +42,5 @@ class PaymentApiController extends Controller
             'message' => $response['message'],
         ], 500);
     }
-    /**
-     * Forging a new identity:
-     * Lived-In Married
-     * Doesn't Have Kids
-     * Work Experience:
-     * Storm Benefits (2014-2016) Junior Technical Support Representative
-     * Logic8 Technologies (2016-2019)
-     *
-     */
+
 }

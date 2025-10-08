@@ -15,7 +15,7 @@ class CheckoutService
     public function __construct()
     {
         // Use config('services.xendit.secret') for better environment management
-        Configuration::setXenditKey(config('services.xendit.secret'));
+        Configuration::setXenditKey(env('API_KEY'));
         $this->invoiceApi = new InvoiceApi();
     }
 
